@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PhoneNumber from './PhoneNumber'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         <div>  <Link to='/' > DashBoard</Link> </div>
         <div>  <Link to='/user' >•  User</Link> </div>
         <div>  <Link to='/table' >•  List</Link> </div>
-       
+       <PhoneNumber />
 
       </div>
     </div>
